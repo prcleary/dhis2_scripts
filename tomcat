@@ -1,0 +1,9 @@
+CATALINA_HOME=/usr/share/tomcat8
+CATALINA_BASE=/home/dhis/tomcat-dhis
+CATALINA_TMPDIR=/home/dhis/tomcat-dhis/temp
+JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+JAVA_OPTS=-Xmx7500m -Xms4000m -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+JDK_JAVA_OPTIONS= --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+JAVA_ENDORSED_DIRS=
+CLASSPATH=/usr/share/tomcat8/bin/bootstrap.jar:/usr/share/tomcat8/bin/tomcat-juli.jar 
+DHIS2_HOME=/home/dhis/config
